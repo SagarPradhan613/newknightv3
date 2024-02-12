@@ -26,7 +26,7 @@ const StakedActionComponent: React.FunctionComponent<React.PropsWithChildren<Sta
     <StyledActionContainer>
       <ActionTitles>
         <Text bold color="secondary" fontSize="12px" pr="4px">
-          {lpSymbol}
+          {lpSymbol === 'CAKE' ? 'KNGHT' : lpSymbol}
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
           {t("Staked")}
